@@ -248,10 +248,12 @@ li:nth-child(even) .history-words {
 }
 
 #wrap {
+	position: relative;
 	background: #555;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	z-index: 200;
 }

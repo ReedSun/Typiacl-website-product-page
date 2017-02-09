@@ -2,7 +2,7 @@ module.exports = {
 	entry: "./js/index.js",
 	output: {
 		path: __dirname + '/dist/js',
-		filename: "marge.js"
+		filename: "merge.js"
 	},
 	resolve: {
 		aligns: {
