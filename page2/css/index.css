@@ -257,3 +257,6 @@ li:nth-child(even) .history-words {
 	align-items: center;
 	z-index: 200;
 }
+#wrap h2 {
+	margin: 20px;
+}
