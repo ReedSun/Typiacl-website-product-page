@@ -1,5 +1,19 @@
 var $ = require("jquery");
 
+function show() {
+    $('#wrap').hide();
+    $('#header').show();
+    $('#main').show();
+    $('#nav').show();
+}
+$(window).on('load', function () {
+    console.log(1);
+    $('#header').hide();
+    $('#main').hide();
+    $('#nav').hide();
+    setTimeout(show, 2500);
+})
+
 var Carousel = require("./carousel.js");
 require("../css/carousel.css");
 new Carousel($(".carousel"));

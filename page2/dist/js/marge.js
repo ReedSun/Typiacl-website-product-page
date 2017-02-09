@@ -46,6 +46,20 @@
 
 	var $ = __webpack_require__(1);
 
+	function show() {
+	    $('#wrap').hide();
+	    $('#header').show();
+	    $('#main').show();
+	    $('#nav').show();
+	}
+	$(window).on('load', function () {
+	    console.log(1);
+	    $('#header').hide();
+	    $('#main').hide();
+	    $('#nav').hide();
+	    setTimeout(show, 2500);
+	})
+
 	var Carousel = __webpack_require__(2);
 	__webpack_require__(3);
 	new Carousel($(".carousel"));

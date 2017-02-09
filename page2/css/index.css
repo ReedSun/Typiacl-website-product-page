@@ -246,3 +246,12 @@ li:nth-child(even) .history-words {
 	background-color: white;
 	color: black;
 }
+
+#wrap {
+	background: #555;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
